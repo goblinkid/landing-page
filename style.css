@@ -14,7 +14,7 @@ body {
     background-color: #61892f;
     color: white;
     align-items: center;
-    padding: 20px 20%;
+    padding: 20px 15%;
 }
 
 .title {
@@ -33,4 +33,41 @@ body {
 .header li {
     font-size: 16px;
     margin: 8px;
+}
+
+.title-content {
+    display: flex;
+    padding: 80px 15%;
+    /* background-image: linear-gradient(#61892f, #86C232); */
+    background-color: #61892f;
+    color: white;
+}
+
+.title-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.title-left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title-left button {
+    align-self: flex-start;
+    padding: 2px 25px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #86C232;
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.title-right img{
+    width: 500px;
+    height: 200px;
 }
