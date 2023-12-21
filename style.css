@@ -1,0 +1,36 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #61892f;
+    color: white;
+    align-items: center;
+    padding: 20px 20%;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+.header li {
+    font-size: 16px;
+    margin: 8px;
+}
